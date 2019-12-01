@@ -1,8 +1,8 @@
 ; fio-rand-RW.job for fiotest
 
 [global]
-name=fio-rand-RW
-filename=fio-rand-RW
+name=fio-rand-RW-docker
+filename=fio-rand-RW-docker
 rw=randrw
 rwmixread=60
 rwmixwrite=40
