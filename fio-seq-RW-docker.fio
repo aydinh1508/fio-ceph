@@ -14,6 +14,6 @@ runtime=900
 directory=/test
 
 [file1]
-size=1G
+size=128m
 ioengine=libaio
 iodepth=16
