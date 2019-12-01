@@ -1,8 +1,8 @@
 ; fio-rand-RW.job for fiotest
 
 [global]
-name=fio-rand-RW
-filename=fio-rand-RW
+name=fio-rand-RW-kube
+filename=fio-rand-RW-kube
 rw=randrw
 rwmixread=60
 rwmixwrite=40
@@ -14,6 +14,6 @@ runtime=900
 directory=/myvol
 
 [file1]
-size=10G
+size=1G
 ioengine=libaio
 iodepth=16
