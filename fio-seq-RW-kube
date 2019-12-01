@@ -1,0 +1,19 @@
+; fio-seq-RW.job for fiotest
+
+[global]
+name=fio-seq-RW-kube
+filename=fio-seq-RW-kube
+rw=rw
+rwmixread=60
+rwmixwrite=40
+bs=256K
+direct=0
+numjobs=4
+time_based=1
+runtime=900
+directory=/myvol
+
+[file1]
+size=1G
+ioengine=libaio
+iodepth=16
