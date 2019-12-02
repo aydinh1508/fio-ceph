@@ -1,5 +1,3 @@
-; fio-seq-RW.job for fiotest
-
 [global]
 name=fio-seq-RW-kube
 filename=fio-seq-RW-kube
