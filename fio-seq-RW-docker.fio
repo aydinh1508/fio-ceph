@@ -6,11 +6,11 @@ filename=fio-seq-RW-docker
 rw=rw
 rwmixread=60
 rwmixwrite=40
-bs=32K
+bs=4K
 direct=0
 numjobs=4
 time_based=1
-runtime=900
+runtime=180
 directory=/test
 
 [file1]
