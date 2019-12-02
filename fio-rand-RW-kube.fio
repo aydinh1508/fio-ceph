@@ -12,6 +12,6 @@ runtime=30
 directory=/myvol
 
 [file1]
-size=64m
+size=128m
 ioengine=libaio
 iodepth=16
