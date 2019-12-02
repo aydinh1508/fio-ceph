@@ -1,5 +1,3 @@
-; fio-rand-RW.job for fiotest
-
 [global]
 name=fio-rand-RW-docker
 filename=fio-rand-RW-docker
@@ -10,10 +8,10 @@ bs=4K
 direct=0
 numjobs=4
 time_based=1
-runtime=900
+runtime=30
 directory=/test
 
 [file1]
-size=1G
+size=64m
 ioengine=libaio
 iodepth=16
