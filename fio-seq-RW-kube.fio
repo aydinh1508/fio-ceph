@@ -9,6 +9,8 @@ rwmixwrite=40
 bs=32K
 direct=0
 numjobs=4
+time_based=1
+runtime=180
 directory=/myvol
 
 [file1]
